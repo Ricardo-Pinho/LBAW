@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/lbaw11609/!svn/ver/1379/compras2/database
+END
+Casas.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/lbaw11609/!svn/ver/1155/compras2/database/Casas.php
+END
+NaoAlimenticio.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/lbaw11609/!svn/ver/1071/compras2/database/NaoAlimenticio.php
+END
+Ingrediente.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/lbaw11609/!svn/ver/1260/compras2/database/Ingrediente.php
+END
+Evento.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/lbaw11609/!svn/ver/273/compras2/database/Evento.php
+END
+Casa_Receita.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/lbaw11609/!svn/ver/1313/compras2/database/Casa_Receita.php
+END
+Histórico.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/lbaw11609/!svn/ver/273/compras2/database/Hist%C3%B3rico.php
+END
+Quantidade_Disponivel.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/lbaw11609/!svn/ver/1313/compras2/database/Quantidade_Disponivel.php
+END
+Quantidade_Necessaria.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/lbaw11609/!svn/ver/1298/compras2/database/Quantidade_Necessaria.php
+END
+Receita.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/lbaw11609/!svn/ver/1195/compras2/database/Receita.php
+END
+Casa_Utilizador.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/lbaw11609/!svn/ver/1312/compras2/database/Casa_Utilizador.php
+END
+Utilizadores.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/lbaw11609/!svn/ver/1071/compras2/database/Utilizadores.php
+END
+Agenda.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/lbaw11609/!svn/ver/273/compras2/database/Agenda.php
+END
+Corredor.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/lbaw11609/!svn/ver/1330/compras2/database/Corredor.php
+END
+Stock.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/lbaw11609/!svn/ver/1379/compras2/database/Stock.php
+END
+Loja.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/lbaw11609/!svn/ver/1071/compras2/database/Loja.php
+END

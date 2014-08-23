@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/lbaw11609/!svn/ver/1346/compras2/templates/user
+END
+verconta.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/lbaw11609/!svn/ver/1138/compras2/templates/user/verconta.tpl
+END
+delete.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/lbaw11609/!svn/ver/476/compras2/templates/user/delete.tpl
+END
+register.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/lbaw11609/!svn/ver/1314/compras2/templates/user/register.tpl
+END
+edit.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/lbaw11609/!svn/ver/1346/compras2/templates/user/edit.tpl
+END
+showhouses.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/lbaw11609/!svn/ver/1067/compras2/templates/user/showhouses.tpl
+END
+editpassword.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/lbaw11609/!svn/ver/1336/compras2/templates/user/editpassword.tpl
+END
+verutilizadores.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/lbaw11609/!svn/ver/949/compras2/templates/user/verutilizadores.tpl
+END

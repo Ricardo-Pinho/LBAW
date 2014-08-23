@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/lbaw11609/!svn/ver/1392/compras2/templates/produtos
+END
+showstoresbyingredient.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/lbaw11609/!svn/ver/1142/compras2/templates/produtos/showstoresbyingredient.tpl
+END
+register.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/lbaw11609/!svn/ver/1218/compras2/templates/produtos/register.tpl
+END
+addprodutotostore.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/lbaw11609/!svn/ver/1078/compras2/templates/produtos/addprodutotostore.tpl
+END
+edit.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/lbaw11609/!svn/ver/1218/compras2/templates/produtos/edit.tpl
+END
+addingredientetostore.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/lbaw11609/!svn/ver/1083/compras2/templates/produtos/addingredientetostore.tpl
+END
+verprodutos.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/lbaw11609/!svn/ver/949/compras2/templates/produtos/verprodutos.tpl
+END
+veringredientes.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/lbaw11609/!svn/ver/949/compras2/templates/produtos/veringredientes.tpl
+END
+delete.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/lbaw11609/!svn/ver/763/compras2/templates/produtos/delete.tpl
+END
+showhousesbyproduct.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/lbaw11609/!svn/ver/1142/compras2/templates/produtos/showhousesbyproduct.tpl
+END
+showrecipeesbyingredient.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/lbaw11609/!svn/ver/1284/compras2/templates/produtos/showrecipeesbyingredient.tpl
+END
+addproduto.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/lbaw11609/!svn/ver/1387/compras2/templates/produtos/addproduto.tpl
+END
+addingrediente.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/lbaw11609/!svn/ver/1392/compras2/templates/produtos/addingrediente.tpl
+END
+verproduto.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/lbaw11609/!svn/ver/1138/compras2/templates/produtos/verproduto.tpl
+END
+veringrediente.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/lbaw11609/!svn/ver/1285/compras2/templates/produtos/veringrediente.tpl
+END
+showhousesbyingredient.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/lbaw11609/!svn/ver/1142/compras2/templates/produtos/showhousesbyingredient.tpl
+END
+showstoresbyproduct.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/lbaw11609/!svn/ver/1142/compras2/templates/produtos/showstoresbyproduct.tpl
+END

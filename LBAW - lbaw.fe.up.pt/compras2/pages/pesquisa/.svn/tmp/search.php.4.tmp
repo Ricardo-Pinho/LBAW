@@ -1,0 +1,92 @@
+<?
+
+require_once('../../includes/base.php');
+require_once('../../database/Utilizadores.php');
+require_once('../../database/Casas.php');
+require_once('../../database/Ingrediente.php');
+require_once('../../database/NaoAlimenticio.php');
+require_once('../../database/Receita.php');
+require_once('../../database/Loja.php');
+
+$option = $_GET["tipo"];
+$name = $_GET["pesquisa"];
+
+switch ($option) {
+    case "101":{
+			$casas = Casas::getAllbyName($name);
+			$nohouses=false;
+			if($casas==null)
+				$nohouses=true;
+			
+			$smarty->assign("nohouses", $nohouses);
+			$smarty->assign("casas", $casas);
+			$smarty->display('casa/vercasas.tpl');
+			break;
+		}
+    case "102":{
+			$ingredientes = Ingredientes::getAllbyName($name);
+			$noingredients=false;
+			if($ingredientes==null)
+				$noingredients=true;
+			
+			$smarty->assign("noingredients", $noingredients);
+			$smarty->assign("ingredientes", $ingredientes);
+			$smarty->display('produtos/veringredientes.tpl');
+			break;
+		}
+    case "103":{
+			$produtos = NaoAlimenticios::getAllbyName($name);
+			$noproducts=false;
+			if($produtos==null)
+				$noproducts=true;
+			
+			$smarty->assign("noproducts", $noproducts);
+			$smarty->assign("produtos", $produtos);
+			$smarty->display('produtos/verprodutos.tpl');
+			break;
+		}
+    case "104":{
+			$utilizadores = Users::getAllbyName($name);
+			$nousers=false;
+			if($utilizadores==null)
+				$nousers=true;
+			
+			$smarty->assign("nousers", $nousers);
+			$smarty->assign("users", $utilizadores);
+			$smarty->display('user/verutilziadores.tpl');
+			break;
+		}
+    case "105":{
+			$receitas = Receitas::getAllbyName($name);
+			$norecipees=false;
+			if($receitas==null)
+				$norecipees=true;
+			
+			$smarty->assign("norecipees", $norecipees);
+			$smarty->assign("receitas", $receitas);
+			$smarty->display('receitas/listarreceitas.tpl');
+			break;
+		}
+    case "106":{
+			$lojas = Lojas::getAllbyName($name);
+			$nostores=false;
+			if($lojas==null)
+				$nostores=true;
+			
+			$smarty->assign("nostores", $nostores);
+			$smarty->assign("lojas", $lojas);
+			$smarty->display('loja/verlojas.tpl');
+			break;
+		}		
+}
+
+if ($errors) {
+  $_SESSION["s_errors"] = $errors;
+  header("Location: " . $_SERVER["HTTP_REFERER"]);
+}
+else {
+  $_SESSION["s_messages"][] = $name.'Erro na Pesquisa'.$option;
+  header("Location: ../../index.php");
+  }
+
+?>

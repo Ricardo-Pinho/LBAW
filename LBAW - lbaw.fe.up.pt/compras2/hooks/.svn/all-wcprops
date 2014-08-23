@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/lbaw11609/!svn/ver/273/compras2/hooks
+END
+pre-revprop-change.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/lbaw11609/!svn/ver/273/compras2/hooks/pre-revprop-change.tmpl
+END
+post-commit.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/lbaw11609/!svn/ver/273/compras2/hooks/post-commit.tmpl
+END
+post-lock.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/lbaw11609/!svn/ver/273/compras2/hooks/post-lock.tmpl
+END
+pre-commit.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/lbaw11609/!svn/ver/273/compras2/hooks/pre-commit.tmpl
+END
+pre-lock.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/lbaw11609/!svn/ver/273/compras2/hooks/pre-lock.tmpl
+END
+post-unlock.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/lbaw11609/!svn/ver/273/compras2/hooks/post-unlock.tmpl
+END
+pre-unlock.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/lbaw11609/!svn/ver/273/compras2/hooks/pre-unlock.tmpl
+END
+post-revprop-change.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/lbaw11609/!svn/ver/273/compras2/hooks/post-revprop-change.tmpl
+END
+start-commit.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/lbaw11609/!svn/ver/273/compras2/hooks/start-commit.tmpl
+END

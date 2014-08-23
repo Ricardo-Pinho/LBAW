@@ -1,0 +1,39 @@
+{* list users template *}
+{include file='header.tpl'}
+
+  <h1>{$receita.nome}</h1>
+
+  <table class="centertable">
+    <tr>
+		  <th class="center">Tempo(min)</th>
+		  <th class="center">Doses</th>
+    </tr>
+    <tr class="check">
+		  <td class="center">{$receita.tempo_preparo}</td>
+		  <td class="center">{$receita.qpessoas}</td>
+	</tr>
+  </table>
+  <br>
+  <table class="centertable">
+    <tr>
+		  <th class="center">Ingrediente</th>
+		  <th class="center">Medida</th>
+		  <th class="center">Quantidade</th>
+    </tr>
+<<<<<<< .mine
+	{foreach $ingredientes as ingrediente}
+=======
+	{foreach from=$ingredientes item=ingrediente}
+>>>>>>> .r899
+		<tr class="check">
+			<td class="center">{$ingrediente.nome}</td>
+			<td class="center">{$ingrediente.unidade_medida}</td>
+			<td class="center">{$ingrediente.q_necessaria}</td>
+		</tr>
+	{/foreach}
+  </table>
+  
+  <p>Modo de preparo:</p><br>
+  <p>{$receita.preparo}</p>
+
+{include file='footer.tpl'}

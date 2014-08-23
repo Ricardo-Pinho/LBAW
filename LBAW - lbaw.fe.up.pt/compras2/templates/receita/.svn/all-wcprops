@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/lbaw11609/!svn/ver/1394/compras2/templates/receita
+END
+delete.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/lbaw11609/!svn/ver/1169/compras2/templates/receita/delete.tpl
+END
+edit.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/lbaw11609/!svn/ver/1394/compras2/templates/receita/edit.tpl
+END
+addreceita.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/lbaw11609/!svn/ver/1178/compras2/templates/receita/addreceita.tpl
+END
+adicionarreceita.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/lbaw11609/!svn/ver/1394/compras2/templates/receita/adicionarreceita.tpl
+END
+verreceita.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/lbaw11609/!svn/ver/1178/compras2/templates/receita/verreceita.tpl
+END
+listarreceitas.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/lbaw11609/!svn/ver/1191/compras2/templates/receita/listarreceitas.tpl
+END
+showhousesbyrecipee.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/lbaw11609/!svn/ver/1184/compras2/templates/receita/showhousesbyrecipee.tpl
+END

@@ -1,0 +1,383 @@
+/* prototype main stylesheet
+ *
+ * 
+*/
+
+
+@media all and (max-width: 600px) {
+body {display : inline;}
+footer {display : inline;}
+header {display : inline;}
+}
+
+body {
+  margin : 0 auto;
+  /*margin-top : 5px;*/
+  width : 80em;  /*  1280px wide @ 16pt => 1280/16= 80 */
+  font-family : Verdana, Helvetica, Courier;
+  background: url('../img/background.jpg');
+  background-size:100% 100%;
+  background-attachment:fixed;  
+}
+
+#footer {
+  border : 5px ridge Black;
+  margin-top : 5px;
+  padding-left : 10px;
+  padding-right : 10px;
+  color : white;
+  background-color : DeepSkyBlue;
+  font-weight : bold;
+  text-shadow: 0 0 0.2em black, 0 0 0.2em black, 0 0 0.2em black;
+}
+
+
+header {
+  height : 230px;
+  margin-bottom : 18px;
+}
+#theader{
+height : 208px;
+}
+#theader {
+  border : 5px ridge Black;
+  margin-left : 214px;
+  padding-left : 10px;
+  padding-right : 10px;
+  color : #F0F8FF;
+  background: url('../img/fruits.jpg');
+  background-size:cover;
+  text-shadow : 4px 4px 4px #000;
+}
+
+#headpage{
+  margin-top : 5px;
+}
+
+#titleheader {
+  margin-top : 5px;
+  margin-bottom : 5px;
+  font-weight : bold;
+  font-size : 3.0em;
+}
+
+#titleheader a:hover {
+text-decoration: underline; 
+color: #F0F8FF;
+}
+
+#slogan{
+  font-family : Arial;
+  font-weight : bold;
+}
+#searchbar{
+margin-left : 288px;
+text-shadow: 0 0 0.2em black, 0 0 0.2em black, 0 0 0.2em black;
+}
+
+
+#footer {
+  clear : both;
+  font-size : 0.9em;
+  margin-top : 15px;
+}
+#nav {
+  margin-top : 5px;
+}
+.title, .ltitle {
+  /*margin-top : 10px;
+  margin-bottom : 15px;*/
+  font: bold 1.4em Brushstroke;
+  letter-spacing: 1px;
+  text-align: center;
+  color : #F0F8FF;
+}
+.ltitle{
+color : #F0FFFF;
+}
+h1 { 
+  color : black;
+  font: bold 2.0em "Courier New";
+  text-transform : uppercase;
+  text-align : center;
+}
+.title {
+  font-size : 1.4em;
+    background-color : #010101;
+}
+.ltitle {
+  margin-right:10px;
+  text-align: left;
+  font-size : 1.2em;
+  border-bottom:1px solid black;
+}
+
+.tabesquerda, #content, .tabdireita, #tops, #login, #register, .border {
+  border : 5px ridge Black;
+  /*padding : 10px;*/
+  background-color: DeepSkyBlue;
+  margin-bottom : 10px;
+}
+
+#content, #register, .border {
+  padding : 10px;
+}
+
+.tabesquerda, .tabdireita, #tops, #login {
+  width : 184px;
+}
+.tabesquerda {
+  float : left;
+  clear : left;
+  font-weight : bold;
+  color : Red;
+}
+#login {
+  float : left;
+  clear : left;
+  height : 208px;
+}
+#login input {
+  display : block;
+  margin-bottom : 5px;
+}
+#login tr, .tabesquerda ui, .tabdireita ul,#tops ul{
+  list-style-type : none;
+  list-style-image : none;
+  margin : 0;
+  padding : 0;
+}
+#login td, .tabesquerda li, .tabdireita li ,#tops li{
+  padding : 5px;
+  margin : 0;
+}
+#content, #register {
+  float : none;
+  clear : none;
+  margin-left : 214px;
+  margin-right : 214px;
+  text-align : justify;
+}
+
+.tabdireita,#tops {
+  float : right;
+  clear : right;
+  font-weight : bold;
+  color : Red;
+}
+ul {
+  list-style-type : none;
+  list-style-image : none;
+  margin : 0;
+  padding : 0;
+}
+.listul{
+list-style-type : disc;
+padding: 6px;
+margin: 2px;
+}
+.listli{
+padding: 6px;
+margin: 2px;
+}
+li { 
+  padding : 0;
+  margin : 0;
+}
+a {
+  text-decoration : none;
+}
+#theader a, #footer a {
+  color : Beige;
+}
+fieldset {
+  padding: 1em;
+}
+label {
+  float: left;
+  width : 192px;
+  margin-right: 0.5em;
+  padding-top: 0.2em;
+  text-align: right;
+  font-weight: bold;
+}
+#login label { 
+  float : none;
+}
+table {
+  border-collapse : collapse;
+}
+table,th, td {
+  border : 2px solid black;
+  padding : 6px;
+}
+
+table tr.check:hover {
+  background-color:#F0F9FF;
+}
+img.center {   
+  display : block;
+  margin-left : auto;
+  margin-right: auto;
+}
+.message {
+
+
+  display : block;
+  color : white;
+  background-color : #339933;
+  text-align : center;
+  padding : 10px;
+  margin-bottom : 3px;
+}
+th {
+  color : #F0F8FF;
+  background-color : #FF4500;
+}
+.error {
+  color: red;
+  background-color: transparent;
+}
+#errors .error {
+
+
+  display : block;
+  color : white;
+  background-color : #993333;
+  text-align : center;
+  padding : 10px;
+  margin-bottom : 3px;
+}
+.left { 
+  text-align : left;
+}
+.right { 
+  text-align : right;
+}
+.center { 
+  text-align : center;
+}
+.centerblue { 
+  text-align : center;
+  color: blue;
+}
+.centerred { 
+  text-align : center;
+  color: red;
+}
+.red{
+color:red;
+}
+.justify { 
+  text-align : justify;
+}
+
+.navtext {
+  font-weight : bold;
+}
+.marginbottom{
+  margin-bottom : 5px;
+}
+.reginfo {
+  font-size : 0.8em;
+}
+.middle {
+vertical-align:middle;
+}
+
+.middle2 {
+vertical-align:middle;
+float:left;
+}
+
+.helpline {
+color: Beige;
+text-shadow: 0 0 0.2em black, 0 0 0.2em black, 0 0 0.2em black;
+font-weight : bold;
+}
+
+.helpline:hover{
+text-decoration: underline;
+cursor: help;
+color: Beige;
+text-shadow: 0 0 0.2em black, 0 0 0.2em black, 0 0 0.2em black;
+font-weight : bold; 
+}
+
+.top{
+vertical-align:top;
+}
+.paddingleft{
+padding-left:10px;
+}
+.centertable{
+margin:auto;
+/*width:70%;*/
+}
+.underline:hover{
+text-decoration: underline; 
+}
+.title2{
+color: Beige;
+text-shadow: 0 0 0.2em black, 0 0 0.2em black, 0 0 0.2em black;
+font-weight : bold;
+border-radius:25px;
+}
+.title2:hover{
+background: url('../img/titles2.png');
+/*background-color: red;*/
+color: DodgerBlue;
+text-shadow: 0 0 0.2em DodgerBlue, 0 0 0.2em DodgerBlue, 0 0 0.2em DodgerBlue;
+font-weight : bold;
+border-radius:25px;
+}
+
+.options{
+  border: 1px solid #006; 
+  margin : 5px;
+  font: italic normal 1.0em georgia, sans-serif;
+  background: url('../img/titles1.png');
+  background-size: 100% 100%;;
+  text-align: center;
+  color : Red;
+  text-shadow: 0 0 0.2em black, 0 0 0.2em black, 0 0 0.2em black;
+}
+.options:hover{
+  border: 1px solid #006;
+  margin : 5px;
+  cursor: pointer;
+  font: italic normal 1.0em georgia, sans-serif;
+  background: url('../img/titles1-inverted.png');
+  background-size:100% 100%;;
+  text-align: center;
+  color : Red;
+  text-shadow: 0 0 0.2em black, 0 0 0.2em black, 0 0 0.2em black;
+}
+
+@media all and (max-width: 600px) {
+.tabesquerda{display:none;width:0px;margin-left:0px;padding-left:0px;margin-right:0px;padding-right:0px;float : none;clear : none;}
+.tabdireita{display:none;width:0px;margin-left:0px;padding-left:0px;margin-right:0px;padding-right:0px;float : none;clear : none;}
+#theader {margin-left:0px;padding-left:0px;margin-right:0px;padding-right:0px;float : none;clear:both; width:480px;}
+#footer {margin-top:0px;padding-top:0px;margin-left:0px;padding-left:0px;margin-right:0px;padding-right:0px;float : none;clear:both; width:480px;}
+.reginfo {font-size:8pt;float : none;clear:both;}
+.title {font-size:16pt;float : none;clear:both;}
+.subtitle{font-size:16pt;float : none;clear:both;}
+h1{text-align:center;font-size:18pt;float : none;clear:both;}
+p{text-align:center;font-size:10pt;float : none;clear:both;}
+a{text-align:center;font-size:10pt;float : none;clear:both;}
+#content p{text-align:justify;font-size:10pt;float : none;clear:both;}
+#content a{text-align:justify;font-size:10pt;float : none;clear:both;}
+.ltitle{margin-left:0px;padding-left:0px;margin-right:0px;padding-right:0px;font-size:16pt;float : none;clear:both;}
+#login{margin-left:0px;padding-left:0px;margin-right:0px;padding-right:0px;float : none;clear:both;width:480px;}
+#headpage{margin-left:0px;padding-left:0px;margin-right:0px;padding-right:0px;float : none;clear:both;}
+#titleheader{margin-left:0px;padding-left:0px;margin-right:0px;padding-right:0px;float : none;clear:both;}
+#titleheader a{font-size:20pt;clear:both;}
+#slogan p{font-size:16pt;clear:both;}
+#searchbar{margin-left:0px;padding-left:0px;margin-right:0px;padding-right:0px;float : none;clear:both;width:480px;}
+#searchbar_table{margin-left:0px;padding-left:0px;margin-right:0px;padding-right:0px;float:none;clear : none;}
+#content{margin-left:0px;padding-left:0px;margin-right:0px;padding-right:0px;float : none;clear:both;width:480px;}
+#register{margin-left:0px;padding-left:0px;margin-right:0px;padding-right:0px;float : none;clear:both;width:480px;}
+#label{margin-left:0px;padding-left:0px;margin-right:0px;padding-right:0px;float : none;clear:both;}
+#tops{margin-left:0px;padding-left:0px;margin-right:0px;padding-right:0px;float:left;clear:both; width: 480px;}
+.middle2{float:none;}
+}

@@ -1,0 +1,23 @@
+  body {
+    width : auto;
+    margin : 0px 0px 0px 36px; /* top, right, bottom, left */
+    color : black;
+    background-color: white;
+  }
+  #content, #header{
+    margin : 5px 0px 5px 0px; /* top, right, bottom, left */
+    padding : 10px;
+  }
+  #searchbar, #login, #tabesquerda ,#tabdireita,#tops,.middle,.middle2,.title2{
+    display : none;
+  }
+  
+  #login input {
+	display: block;
+	margin-bottom: 5px;
+}
+
+a {
+	color: #336699;
+	text-decoration: none;
+}

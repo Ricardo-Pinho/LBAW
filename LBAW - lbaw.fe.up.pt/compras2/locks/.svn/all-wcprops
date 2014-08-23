@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/lbaw11609/!svn/ver/273/compras2/locks
+END
+db.lock
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/lbaw11609/!svn/ver/273/compras2/locks/db.lock
+END
+db-logs.lock
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/lbaw11609/!svn/ver/273/compras2/locks/db-logs.lock
+END
